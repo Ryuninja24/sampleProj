@@ -8,7 +8,6 @@ import { HeroDetailComponent }  from './components/hero-detail/hero-detail.compo
 import { HeroServiceService }   from './services/hero-service.service';
 import { routing }              from './app.routing';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { DashboardComponent } from './components\dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +16,7 @@ import { DashboardComponent } from './components\dashboard/dashboard.component';
     HeroComponent,
     DashboardComponent,
     DashboardComponent,
-    DashboardComponent
+    DashboardComponent, DashboardComponent
   ],
   imports: [
     BrowserModule,
