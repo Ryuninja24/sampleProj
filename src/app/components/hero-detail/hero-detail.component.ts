@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Hero } from '../../Classes/Hero/hero';
+import {Input} from "@angular/core/src/metadata/directives";
 
 @Component({
   selector: 'app-hero-detail',
@@ -12,4 +14,6 @@ export class HeroDetailComponent implements OnInit {
   ngOnInit() {
   }
 
+  @Input()
+  hero: Hero;
 }
