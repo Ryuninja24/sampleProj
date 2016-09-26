@@ -7,12 +7,17 @@ import { HeroComponent }        from './components/hero/hero.component';
 import { HeroDetailComponent }  from './components/hero-detail/hero-detail.component';
 import { HeroServiceService }   from './services/hero-service.service';
 import { routing }              from './app.routing';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { DashboardComponent } from './components\dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroDetailComponent,
-    HeroComponent
+    HeroComponent,
+    DashboardComponent,
+    DashboardComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
